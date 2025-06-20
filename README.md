@@ -1,12 +1,26 @@
-# React + Vite
+# 🎯 Guess a Number Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple number guessing game built with **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User guesses a number between 1 and 100
+- Instant feedback (too high, too low, or correct)
+- Clear alert messages with icons
+- "Again" button to reset the game
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Tailwind CSS
+- Lucide Icons (for visual feedback)
+
+## 🧠 How It Works
+
+- A random number is generated between 1 and 100.
+- User inputs a guess and clicks **Submit**.
+- The game shows:
+  - 🔼 "The number is bigger" if the guess is too low
+  - 🔽 "The number is smaller" if the guess is too high
+  - ✅ "Correct! You guessed it!" if it's correct
+- Click **Again** to restart with a new number.
